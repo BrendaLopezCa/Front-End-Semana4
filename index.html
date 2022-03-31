@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE-edge" />
+    <meta name="viewpoint" content="width=device-width, initial-scale=1.0" />
+    <title>Pokedex LaunchX</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto Mono"
+      rel="stylesheet"
+    />
+    <script src="script.js" type="text/javascript" defer></script>
+    <link href="styles.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <div class="poke-background-img">
+      <div class="poke-img-logo">
+        <img class="poke-logo" src="img/logo.svg" width="200px" />
+      </div>
+      <div data-poke-card class="poke-card">
+        <div data-poke-name class="poke-name"></div>
+        <div data-poke-id class="poke-id"></div>
+        <div data-poke-img-container class="img-container">
+          <img
+            data-poke-img
+            class="poke-img"
+            src="img/poke-shadow-2.png"
+            width="200px"
+          />
+        </div>
+        <div data-poke-types class="poke-types"></div>
+        <div class="scrollbar-stats">
+          <div data-poke-stats class="poke-stats"></div>
+        </div>
+        <div data-poke-moves class="poke-moves"></div>
+      </div>
+      <form action="" onsubmit="searchPokemon(event)">
+        <input type="text" name="pokemon" autocomplete="off" />
+      </form>
+    </div>
+  </body>
+</html>

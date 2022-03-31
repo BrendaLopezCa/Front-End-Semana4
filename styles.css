@@ -1,0 +1,101 @@
+form{
+    width: 270px;
+    bottom: -5.5px;
+    margin-bottom: 1.2%;
+    position: absolute;
+    justify-content: center;
+    left: 50%;
+    margin-left: -12%;
+}
+
+body{
+    background-color: rgb(39, 39, 39);
+}
+
+html, body{
+    height: 100%;
+}
+
+input{
+    width: 150%;
+    padding: 24px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+    outline: none;
+    color: rgb(32, 99, 116);
+    background-color: transparent;
+    border-radius: 10px;
+}
+
+.poke-card{
+    position: relative;
+    height: fit-content;
+    font-family: 'Roboto Mono', monospace;
+    max-width: 460px;
+    border-radius: 4px;
+    color: #000;
+    text-align: center;
+    padding: 250px;
+    margin: auto;
+    background-color: transparent;
+}
+
+.img-container{
+    position: relative;
+    margin: 10px auto;
+    margin-top: 2%;
+}
+
+.poke-img{
+    border-radius: 50%;
+    width: 150px;
+    z-index: -1;
+}
+
+.poke-stats div{
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    padding: 2px;
+    font-size: 20px;
+    z-index: 100;
+}
+
+.poke-types div{
+    padding: 6px;
+    margin: 6px;
+    border-radius: 4px;
+    font-weight: 600;
+}
+
+.poke-name{
+    font-weight: bold;
+    font-size: 35px;
+    
+}
+
+.poke-background-img{
+    background-image: url(img/background-3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    background-size: auto 100%;
+}
+
+.poke-img-logo{
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    margin-left: auto;
+    margin-top: auto;
+    padding: 10px;
+}
+
+div .scrollbar-stats{
+    padding: 6px;
+    height: 80px;
+    width: 450px;  
+    overflow-y: scroll;
+
+}
